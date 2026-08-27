@@ -1,0 +1,16 @@
+order_id,order_date,customer_id,customer_segment,region,category,product_name,unit_price,quantity,discount_rate,revenue,cost_of_goods,profit,payment_method,order_status
+ORD-101,2026-01-15,CUST-001,Enterprise,North America (US-East),Electronics,UltraBook Pro 15,1200.00,2,0.05,2280.00,1869.60,410.40,Corporate Invoice,Completed
+ORD-102,2026-01-18,CUST-002,Mid-Market,Europe (EU-Central),Fashion & Apparel,Merino Wool Sweater,140.00,4,0.00,560.00,308.00,252.00,Credit Card,Completed
+ORD-103,2026-01-22,CUST-003,SMB,North America (US-West),Home & Living,Ergonomic Mesh Chair,320.00,3,0.10,864.00,587.52,276.48,Credit Card,Completed
+ORD-104,2026-02-04,CUST-004,Direct Consumer,Asia Pacific (APAC-South),Electronics,Noise-Cancel Headphones,250.00,1,0.00,250.00,205.00,45.00,PayPal,Completed
+ORD-105,2026-02-14,CUST-005,Enterprise,North America (US-East),Office & Supplies,Smart Notebook Planner,45.00,10,0.15,382.50,275.40,107.10,Corporate Invoice,Completed
+ORD-106,2026-02-28,CUST-006,Direct Consumer,Europe (EU-Central),Fashion & Apparel,Waterproof Trail Jacket,180.00,2,0.05,342.00,188.10,153.90,Credit Card,Completed
+ORD-107,2026-03-05,CUST-007,SMB,Asia Pacific (APAC-South),Electronics,4K Smart Monitor 27",450.00,2,0.00,900.00,738.00,162.00,Wire Transfer,Completed
+ORD-108,2026-03-12,CUST-008,Enterprise,North America (US-West),Home & Living,Minimalist Floor Lamp,120.00,5,0.10,540.00,367.20,172.80,Corporate Invoice,Completed
+ORD-109,2026-03-19,CUST-009,Direct Consumer,North America (US-East),Fashion & Apparel,Athletic Tech Joggers,85.00,3,0.00,255.00,140.25,114.75,Credit Card,Completed
+ORD-110,2026-04-02,CUST-010,Mid-Market,Europe (EU-Central),Office & Supplies,Monitor Arm Mount,95.00,4,0.05,361.00,259.92,101.08,PayPal,Completed
+ORD-111,2026-04-15,CUST-011,Enterprise,Asia Pacific (APAC-South),Electronics,USB-C Dock Station,160.00,6,0.10,864.00,708.48,155.52,Corporate Invoice,Completed
+ORD-112,2026-04-20,CUST-012,SMB,North America (US-East),Fashion & Apparel,Leather Urban Backpack,150.00,2,0.00,300.00,165.00,135.00,Credit Card,Completed
+ORD-113,2026-05-08,CUST-013,Direct Consumer,Europe (EU-Central),Home & Living,Ceramic Tableware Set,110.00,2,0.05,209.00,142.12,66.88,Credit Card,Completed
+ORD-114,2026-05-18,CUST-014,Enterprise,North America (US-West),Electronics,UltraBook Pro 15,1200.00,3,0.05,3420.00,2804.40,615.60,Corporate Invoice,Completed
+ORD-115,2026-05-27,CUST-015,Mid-Market,Asia Pacific (APAC-South),Office & Supplies,Document Shredder Pro,140.00,3,0.00,420.00,302.40,117.60,Wire Transfer,Completed
