@@ -1,9 +1,17 @@
 import axios from 'axios';
 
-const baseURL = import.meta.env.VITE_API_URL || '/api';
+function getBaseUrl() {
+  const envUrl = import.meta.env.VITE_API_URL;
+  if (!envUrl) return '/api';
+  const clean = envUrl.trim().replace(/\/+$/, '');
+  return clean.endsWith('/api') ? clean : `${clean}/api`;
+}
+
+const baseURL = getBaseUrl();
 
 const api = axios.create({
   baseURL,
+  timeout: 60000, // 60s timeout for Render cold starts
   headers: {
     'Content-Type': 'application/json'
   }
